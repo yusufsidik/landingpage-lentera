@@ -42,7 +42,7 @@ export default function Navbar() {
             !open ? "hidden" : "flex"
           } lg:flex flex-col lg:flex-row pt-6 lg:pt-0`}
         >
-          <div className="flex flex-col lg:flex-row lg:items-center md:gap-x-12 gap-y-4 lg:gap-y-0">
+          <div className="flex flex-col lg:flex-row lg:items-center md:gap-x-16 gap-y-4 lg:gap-y-0">
             <a href="" className="hover:text-orange-400">
               Home
             </a>
@@ -59,9 +59,6 @@ export default function Navbar() {
               Account
             </a>
           </div>
-          <button className="rounded-lg border border-black py-2 px-6 lg:ml-8 lg:mx-auto lg:mt-0 mt-8 hover:border-orange-400 hover:text-orange-400">
-            Login
-          </button>
         </div>
       </nav>
     </section>

@@ -2,7 +2,7 @@ export default function Jumbotron() {
   return (
     <section className="max-w-screen-xl mx-auto px-2">
       <div className="flex items-center justify-between">
-        <div className="w-full lg:w-5/12 md:mt-[50px]">
+        <div className="w-full lg:w-5/12 mt-[65px] md:mt-[50px]">
           <h1 className="font-semibold text-[40px] lg:text-[48px]">
             We have thousand <br /> of your dream house
           </h1>
@@ -39,16 +39,16 @@ export default function Jumbotron() {
               Sawangan Golf, Padalarang
             </span>
           </div>
-          <button className="text-[16px] lg:text-[18px] mt-[25px] text-white bg-orange-300 border border-slate-400 py-2 px-6">
+          <button className="text-[16px] lg:text-[18px] mt-[25px] text-white bg-orange-400 border border-slate-400 py-2 px-6">
             Explore Now
           </button>
         </div>
         <div className="relative">
           <img
             src="./public/img/house.png"
-            className="hidden md:block md:max-w-[420px] lg:max-w-[700px] self-end relative z-10"
+            className="hidden md:block md:max-w-[420px] lg:max-w-[700px] self-end relative z-10 rounded-b-3xl"
           />
-          <div className="absolute bottom-0 left-0 right-0 top-[220px] bg-[#8080FF] z-0 rounded-tl-3xl"></div>
+          <div className="absolute bottom-0 left-0 right-0 top-[220px] bg-[#8080FF] z-0 rounded-3xl"></div>
         </div>
       </div>
     </section>
