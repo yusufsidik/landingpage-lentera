@@ -9,7 +9,7 @@ export default function Navbar() {
         <div className="flex justify-between">
           <a href="">
             <img
-              src="./public/img/logo.png"
+              src="./img/logo.png"
               alt="logo"
               width="40px"
               height="40px"

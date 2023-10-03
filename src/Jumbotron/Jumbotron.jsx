@@ -45,7 +45,7 @@ export default function Jumbotron() {
         </div>
         <div className="relative">
           <img
-            src="./public/img/house.png"
+            src="./img/house.png"
             className="hidden md:block md:max-w-[420px] lg:max-w-[700px] self-end relative z-10 rounded-b-3xl"
           />
           <div className="absolute bottom-0 left-0 right-0 top-[220px] bg-[#8080FF] z-0 rounded-3xl"></div>
