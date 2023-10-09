@@ -10,7 +10,7 @@ export default function Destination() {
           all what we need to have
         </p>
       </div>
-      <div className="flex justify-between mt-8">
+      <div className="flex justify-center mt-8 gap-8 flex-wrap">
         <DestinationCard rating="4,5" img="destination1.jpg" name="Lembang, Bandung" price="Start from $850k"></DestinationCard>
         <DestinationCard rating="4,9" img="destination2.jpg" name="Yusuf Center, Samarinda" price="Start from $1.050k"></DestinationCard>
         <DestinationCard rating="4,5" img="destination3.jpg" name="Ahya, France" price="Start from $550k"></DestinationCard>
