@@ -4,6 +4,8 @@ import Navbar from "./Navbar/Navbar";
 import Jumbotron from "./Jumbotron/Jumbotron";
 import Partner from "./Partner/Partner";
 import Destination from "./Destination/Destination";
+import Footer from "./Partner/Footer/Footer";
+
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -13,6 +15,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Jumbotron></Jumbotron>
       <Partner></Partner>
       <Destination></Destination>
+      <Footer></Footer>
     </div>
   </React.StrictMode>
 );

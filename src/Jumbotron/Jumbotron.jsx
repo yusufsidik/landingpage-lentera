@@ -1,6 +1,6 @@
 export default function Jumbotron() {
   return (
-    <section className="max-w-screen-xl mx-auto px-2">
+    <section className="max-w-screen-xl mx-auto px-4">
       <div className="flex items-center justify-between">
         <div className="w-full lg:w-5/12 mt-[65px] md:mt-[50px]">
           <h1 className="font-semibold text-[40px] lg:text-[48px]">
