@@ -39,7 +39,7 @@ export default function Jumbotron() {
               Sawangan Golf, Padalarang
             </span>
           </div>
-          <button className="text-[16px] lg:text-[18px] mt-[25px] text-white bg-orange-400 border border-slate-400 py-2 px-6">
+          <button className="text-[16px] hover:bg-orange-500 lg:text-[18px] mt-[25px] text-white bg-orange-400 border border-slate-400 py-2 px-6">
             Explore Now
           </button>
         </div>
